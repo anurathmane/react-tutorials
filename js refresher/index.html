@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict";
+        //let a = 34;
+        let a = 'This is me';
+        const b = 45;
+        console.log(a);
+        //;b = 3333; 
+        console.log(b);
+        // Number
+        // Object
+        // Boolean - true or false
+        // String
+        // undefined
+        // null
+
+        function hello(){
+            console.log("Hey Anurath");
+        }
+        let obja = {
+            r : 34,
+            m : 64,
+            func : function myfunc(number){
+                console.log(number);
+            }
+        }
+
+        document.addEventListener('click', function click(){
+            console.log("clicked");
+            //alert("hello");
+
+            let conf = confirm("Are you sure?");
+            console.log(conf);
+        })
+
+        let arr = [34, 21, 23];
+        arr.forEach(element => {
+            console.log(element);
+        });
+
+    </script>
+</head>
+<body>
+    I am learning js
+</body>
+</html>
